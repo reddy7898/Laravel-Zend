@@ -1,0 +1,6 @@
+<h1>Add Customer</h1>
+<form method="post" action="<?= $this->url('customer', ['action' => 'add']); ?>">
+    <label for="name">Name:</label>
+    <input type="text" name="name" required>
+    <button type="submit">Add</button>
+</form>
